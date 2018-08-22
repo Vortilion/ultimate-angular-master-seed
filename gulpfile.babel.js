@@ -111,6 +111,7 @@ gulp.task('firebase', ['styles', 'scripts'], cb => {
   });
 });
 
+// clean, copy, styles, serve, templates, modules, scripts, watch
 gulp.task('default', [
   'copy',
   'styles',
@@ -118,6 +119,7 @@ gulp.task('default', [
   'watch'
 ]);
 
+// clean, copy, templates, modules, scripts, styles, firebase
 gulp.task('production', [
   'copy',
   'scripts',
