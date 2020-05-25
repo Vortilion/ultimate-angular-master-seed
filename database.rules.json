@@ -1,11 +1,11 @@
 {
-    "rules": {
-        ".read": true,
-        "contacts": {
-            "$uid": {
-                ".read": "$uid === auth.uid",
-                ".write": "$uid === auth.uid"
-            }
-        }
+  "rules": {
+    ".read": true,
+    "contacts": {
+      "$uid": {
+        ".read": "$uid === auth.id",
+        ".write": "$uid === auth.id"
+      }
     }
+  }
 }

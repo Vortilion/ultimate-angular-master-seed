@@ -1,3 +1,5 @@
+<a href="https://ultimateangular.com" target="_blank"><img src="https://ultimateangular.com/assets/img/banners/ua-github.svg"></a>
+
 # Ultimate Angular: Pro App
 
 > This repo serves as the seed project for the Ultimate Angular 1.x Pro course as well as the final solution in a separate branch, come and [learn advanced Angular](https://ultimateangular.com) 1.5 architecture and components!
@@ -24,7 +26,6 @@ During the time building this project, you'll need development dependencies of w
 1. Download and install [Node.js here](https://nodejs.org/en/download/) for Windows or for Mac.
 2. Install Firebase CLI on the command-line with `npm install -g firebase-tools`
 3. Install Gulp CLI on the command-line with `npm install -g gulp`
-4. Install Windows Build Tools (contains e.g. Python) with `npm install -g windows-build-tools`
 
 That's about it for tooling you'll need to run the project, let's move onto the project install.
 
